@@ -476,6 +476,9 @@
   .pl-20 {
     padding-left: calc(var(--spacing) * 20);
   }
+  .pl-25 {
+    padding-left: calc(var(--spacing) * 25);
+  }
   .pl-35 {
     padding-left: calc(var(--spacing) * 35);
   }
