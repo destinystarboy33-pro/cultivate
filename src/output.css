@@ -716,6 +716,16 @@
       padding-block: calc(var(--spacing) * 14);
     }
   }
+  .md\:pl-0 {
+    @media (width >= 48rem) {
+      padding-left: calc(var(--spacing) * 0);
+    }
+  }
+  .md\:text-center {
+    @media (width >= 48rem) {
+      text-align: center;
+    }
+  }
   .md\:text-left {
     @media (width >= 48rem) {
       text-align: left;
